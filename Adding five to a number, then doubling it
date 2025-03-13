@@ -1,0 +1,18 @@
+// Adding five to a number, then doubling it
+
+// Write a Kotlin program that reads an integer n from the standard input using the Scanner class. The program should add five to the read number and then multiply it by 2. Print the final result in the standard output.
+
+import java.util.Scanner
+
+fun main() {
+    val scanner = Scanner(System.`in`)
+
+    // Read an integer from the input
+    val n = scanner.nextInt()
+
+    // Add 5 to the number and then multiply by 2
+    val result = (n + 5) * 2
+
+    // Print the final result
+    println(result)
+}
