@@ -1,0 +1,13 @@
+// You've been tasked with creating a basic program in Kotlin that asks the user to input a number, and then displays the number that was entered. The catch is that your input reader should utilize Java's Scanner class. You have started to write a basic skeleton for your program but there are some incomplete parts. Your task is to fill in the blanks in the code to make it function as described.
+
+import java.util.
+
+
+fun main(args: Array<String>) {
+    val scanner = Scanner(System.`in`)
+    
+("Please enter a number:")
+    val number = scanner.
+()
+    println("You entered: $number")
+}
