@@ -1,0 +1,18 @@
+// Developing a personalized greeting program
+// Your task is to develop a simple Kotlin command-line program that asks a user to enter their name and then greets them personally using their name. Your program should have a main function and a separate function to print the greeting message. To accomplish this, you need to use the Java Scanner class to get the user's name as input from the keyboard. Carefully go through the provided code and fill the blanks in the code to make it work as described.
+
+import java.util.
+
+
+fun greet(name: String) {
+    
+("Hello, $name!")
+}
+
+fun main() {
+    val scanner = Scanner(System.`in`)
+    println("Enter your name:")
+    val name = scanner.
+()
+    greet(name)
+}
