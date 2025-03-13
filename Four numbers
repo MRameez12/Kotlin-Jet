@@ -1,0 +1,22 @@
+// Write a program that reads four integer numbers from one line and prints them each on a new line. Input numbers should be separated by one or more spaces.
+
+// Use nextInt() to read numbers ignoring extra spaces.
+
+import java.util.Scanner
+
+fun main() {
+    val scanner = Scanner(System.`in`)
+
+    // Read four integer numbers using nextInt()
+    val num1 = scanner.nextInt()
+    val num2 = scanner.nextInt()
+    val num3 = scanner.nextInt()
+    val num4 = scanner.nextInt()
+
+    // Print each number on a new line
+    println(num1)
+    println(num2)
+    println(num3)
+    println(num4)
+}
+    
