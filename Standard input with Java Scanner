@@ -1,0 +1,18 @@
+// Creating a function to greet user by their name
+// You are developing a simple Kotlin application that asks the user for their name and prints out a greeting message to them. This functionality is neatly bundled into a function named 'greetUser'. However, some parts of the function code are missing as represented by the placeholder symbol '▭'. Your task is to fill the blanks in the code to ensure that the function correctly retrieves the user's input and includes it in the greeting message printed to the standard output.
+
+import java.util.
+
+
+fun greetUser() {
+    val reader = Scanner(System.`in`)
+    
+("Please enter your name:")
+    val name = reader.
+()
+    println("Hello, $name!")
+}
+
+fun main() {
+    greetUser()
+}
