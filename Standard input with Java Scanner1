@@ -1,0 +1,25 @@
+// Printing each word in a new line
+// Write a program that reads five words from the standard input and outputs each word on a new line.
+
+// Words can be ordered differently in the input stream.
+
+import java.util.Scanner
+
+fun main() {
+    val scanner = Scanner(System.`in`)
+    // put your code here
+
+    // Read five words from the input
+    val word1 = scanner.next()
+    val word2 = scanner.next()
+    val word3 = scanner.next()
+    val word4 = scanner.next()
+    val word5 = scanner.next()
+
+    // Print each word on a new line
+    println(word1)
+    println(word2)
+    println(word3)
+    println(word4)
+    println(word5)
+}
